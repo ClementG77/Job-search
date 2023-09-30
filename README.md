@@ -2,7 +2,7 @@
 
 <h2>About the project</h2>
 
-  <p><b>Job search</b> is a mobile appliaction that allow user to search for online jobs. This application called an API that gather all the jobs offer available on different website such as Indeed, Free-Work and many more.</p>
+  <p><b>Job search</b> is a mobile appliaction that allow user to search for online jobs. This application called an API that gather all the job offers posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, Dice and other.</p>
 
 
 👉 Live Demo isn't available 
