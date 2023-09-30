@@ -8,6 +8,22 @@
       "expo-router"
     ],
     "name": "react-native-test",
-    "slug": "react-native-test"
+    "slug": "react-native-test",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3de5b416-540d-48a8-9c35-2face7ee393d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3de5b416-540d-48a8-9c35-2face7ee393d"
+    },
+    "android": {},
+    "ios": {}
   }
 }
