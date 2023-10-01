@@ -3,6 +3,8 @@ import React from 'react';
 
 import styles from "./footer.style";
 import { icons } from "../../../constants";
+import { Icon } from '@rneui/themed';
+
 
 const Footer = ({ url }) => {
 
@@ -16,12 +18,21 @@ const Footer = ({ url }) => {
   }
   return (
     <View style={styles.container}>
-      <TouchableOpacity {...touchProps}>
-        <Image
-          source={icons.heartOutline}
-          resizeMode='contain'
-          style={isPress ? styles.likedImage : styles.likeBtnImage}
-        />
+      <TouchableOpacity {...touchProps}> 
+      <View> 
+      {isPress ? 
+      <Icon
+      raised
+      name='heart-o'
+      type='font-awesome'
+      onPress={() => setIsPress(!isPress)} />  : 
+      <Icon
+        raised
+        name='heart'
+        type='font-awesome'
+        color='rgb(254, 118, 84)'
+        onPress={() => setIsPress(!isPress)}/>}
+        </View>
       </TouchableOpacity>
 
       <TouchableOpacity
